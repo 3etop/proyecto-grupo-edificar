@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Edificar Colombia</title>
+    <meta name="description" content="Suministros para construcción y remodelación, con atención cercana y soluciones para cada proyecto.">
+    <link rel="stylesheet" href="src/site.css">
+    <link rel="icon" type="image/png" href="src/img/fav-icon.png">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Grupo Edificar Colombia, inicio">
+            <img src="src/img/logo.png" alt="Grupo Edificar Colombia" class="logo">
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-controls="nav-menu" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav aria-label="Navegación principal">
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#aliados">Aliados</a></li>
+                <li><a href="#ebikes">E-bikes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="button button-small header-cta" href="#contacto">Hablemos</a>
+    </header>
+
+    <main>
+        <section class="hero slide" id="inicio">
+            <img class="hero-image" src="src/img/collage.jpeg" alt="Interiores con pisos, acabados y espacios remodelados" fetchpriority="high">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow">Construcción · Remodelación · Movilidad</p>
+                <h1>Grupo Edificar Colombia</h1>
+                <p class="hero-copy">Suministros confiables y atención cercana para construir, renovar y transformar espacios.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#productos">Explorar productos</a>
+                    <a class="button button-ghost" href="#nosotros">Conocer el grupo</a>
+                </div>
+            </div>
+            <a class="hero-scroll" href="#nosotros">Conoce más <span aria-hidden="true">↓</span></a>
+        </section>
+
+        <section class="about-section slide" id="nosotros">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <p class="eyebrow eyebrow-dark">Quiénes somos</p>
+                    <h2>Un aliado para cada etapa de tu proyecto.</h2>
+                    <p>En Grupo Edificar Colombia SAS reunimos productos y servicios para construcción y remodelación, respaldados por fabricantes nacionales e internacionales.</p>
+                </div>
+                <div class="purpose-grid">
+                    <article class="purpose-item">
+                        <span class="item-number">01</span>
+                        <h3>Nuestra misión</h3>
+                        <p>Poner a tu alcance un portafolio completo, con calidad, disponibilidad, cumplimiento y atención profesional personalizada.</p>
+                    </article>
+                    <article class="purpose-item">
+                        <span class="item-number">02</span>
+                        <h3>Nuestra visión</h3>
+                        <p>Ser un aliado líder en soluciones para construcción y remodelación, reconocido por la excelencia y la confianza en cada proyecto.</p>
+                    </article>
+                </div>
+                <details class="clients-details">
+                    <summary>Nuestros clientes <span>Ver las empresas que han confiado en nosotros</span></summary>
+                    <ul class="client-list">
+                        <li>Construcciones Arrecife S.A.</li>
+                        <li>Gallery Real Construcciones</li>
+                        <li>Constructora Colpatria</li>
+                        <li>Coninsa Ramón H.</li>
+                        <li>Urbanza S.A.</li>
+                        <li>Inversiones y Construcciones Rincón</li>
+                        <li>Entreparques Constructores</li>
+                        <li>Pentaproyectos S.A.</li>
+                        <li>Andalucía Diseño y Construcciones S.A.S.</li>
+                        <li>Fernando y Ricardo Rincón</li>
+                        <li>A.P. Construcciones</li>
+                        <li>Heymocol</li>
+                        <li>Arquitectónica</li>
+                        <li>Rincón Real Construcciones</li>
+                        <li>Visión Constructora</li>
+                        <li>Inversiones Hoteleras Rosales</li>
+                        <li>Prourbanos</li>
+                        <li>Consorcio Edificar</li>
+                        <li>Gran Proyectos</li>
+                        <li>Torre Navarra Construcciones</li>
+                        <li>AGS Arquitectura S.A.</li>
+                        <li>Ecoinsa Ingeniería S.A.S.</li>
+                        <li>Inversiones Racuellar S.A.S.</li>
+                        <li>A Korn Arquitectos S.A.</li>
+                        <li>Consorcio CMS &amp; GMP</li>
+                        <li>Constructora Famorisa</li>
+                        <li>Constructora Martínez Bayona Ltda.</li>
+                        <li>Consorcio Nueva Autopista</li>
+                        <li>Multipromotora de Proyectos S.A.</li>
+                        <li>Vergel Ingenieros Asociados S.A.</li>
+                        <li>Constructora Qualitta</li>
+                        <li>Vavilco</li>
+                        <li>Soluciones Sivis S.A.S.</li>
+                    </ul>
+                </details>
+            </div>
+        </section>
+
+        <section class="products-section slide" id="productos">
+            <div class="section-inner">
+                <div class="section-heading section-heading-wide">
+                    <div>
+                        <p class="eyebrow eyebrow-dark">Nuestro portafolio</p>
+                        <h2>Todo empieza con buenos materiales.</h2>
+                    </div>
+                    <p>Explora nuestras principales categorías para encontrar lo que tu obra necesita.</p>
+                </div>
+                <div class="products-grid">
+                    <article class="product-card producto-bloque">
+                        <img src="src/img/pisos.jpeg" alt="Piso instalado en un espacio interior" class="producto-img" loading="lazy">
+                        <div class="product-card-content">
+                            <h3 class="producto-titulo">Pisos</h3>
+                            <ul class="producto-lista">
+                                <li>SPC y vinílicos</li>
+                                <li>Bambú y laminados</li>
+                                <li>Imitación madera y piedra</li>
+                                <li>Texturizados</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="product-card producto-bloque">
+                        <img src="src/img/porcelanato.webp" alt="Porcelanato en un espacio interior iluminado" class="producto-img" loading="lazy">
+                        <div class="product-card-content">
+                            <h3 class="producto-titulo">Porcelanatos</h3>
+                            <ul class="producto-lista">
+                                <li>Pulidos y esmaltados</li>
+                                <li>Antideslizantes</li>
+                                <li>Cerámica tipo madera</li>
+                                <li>Cerámica para alto tráfico</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="product-card producto-bloque">
+                        <img src="src/img/Baño.jpg" alt="Baño moderno con acabados claros" class="producto-img" loading="lazy">
+                        <div class="product-card-content">
+                            <h3 class="producto-titulo">Baños</h3>
+                            <ul class="producto-lista">
+                                <li>Bañeras y duchas</li>
+                                <li>Inodoros y sanitarios</li>
+                                <li>Lavamanos</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="product-card producto-bloque">
+                        <img src="src/img/griferias y accesorios.jpeg" alt="Exhibición de griferías y accesorios" class="producto-img" loading="lazy">
+                        <div class="product-card-content">
+                            <h3 class="producto-titulo">Accesorios y más</h3>
+                            <ul class="producto-lista">
+                                <li>Griferías y cerraduras</li>
+                                <li>Pinturas y pegantes</li>
+                                <li>Fachadas y divisiones de baño</li>
+                                <li>Calentadores y lavaderos</li>
+                                <li>Drywall, Superboard y gimnasios</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners-section slide" id="aliados">
+            <div class="section-inner">
+                <div class="partners-heading">
+                    <p class="eyebrow eyebrow-dark">Nuestros aliados</p>
+                    <h2>El respaldo detrás de cada solución.</h2>
+                    <p>Trabajamos con fabricantes nacionales e internacionales para ofrecer un portafolio confiable para construcción y remodelación.</p>
+                </div>
+                <div class="partners-grid">
+                    <article class="partner-item">
+                        <span class="item-number">01</span>
+                        <h3>Fabricantes nacionales</h3>
+                        <p>Experiencia y soluciones de fabricantes del país para acompañar proyectos de distintos tamaños.</p>
+                    </article>
+                    <article class="partner-item">
+                        <span class="item-number">02</span>
+                        <h3>Fabricantes internacionales</h3>
+                        <p>Un portafolio ampliado con alternativas de fabricantes de distintos mercados.</p>
+                    </article>
+                </div>
+                <a class="partners-link" href="#productos">Explorar el portafolio <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <section class="ebikes-section slide" id="ebikes">
+            <div class="ebikes-inner">
+                <div>
+                    <p class="eyebrow">Una forma distinta de moverse</p>
+                    <h2>También pensamos en la movilidad.</h2>
+                </div>
+                <div class="ebikes-copy">
+                    <p>Conoce nuestra línea de bicicletas eléctricas y consulta referencias, disponibilidad y características con nuestro equipo.</p>
+                    <a class="button button-light" href="#contacto">Consultar e-bikes <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section slide" id="contacto">
+            <div class="contact-inner">
+                <div>
+                    <p class="eyebrow eyebrow-dark">Hablemos de tu proyecto</p>
+                    <h2>¿Qué estás construyendo?</h2>
+                    <p>Cuéntanos qué necesitas y te orientaremos sobre las categorías de nuestro portafolio.</p>
+                </div>
+                <a class="button button-primary" href="#productos">Revisar productos <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="#inicio">Grupo Edificar Colombia</a>
+        <p>Suministros para proyectos vitales</p>
+        <a href="#inicio">Volver al inicio ↑</a>
+    </footer>
+    <a class="whatsapp-float" href="https://wa.me/573153550904" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp al +57 315 355 0904" title="Escríbenos por WhatsApp">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <path d="M16 3.5a12 12 0 0 0-10.3 18.2L4 28l6.5-1.7A12 12 0 1 0 16 3.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            <path d="M12.1 10.2c-.4-.8-.8-.8-1.2-.8h-.9c-.3 0-.8.1-1.2.6-.4.4-1.6 1.5-1.6 3.7s1.6 4.3 1.8 4.6c.2.3 3.1 5 7.7 6.8 3.8 1.5 4.6 1.2 5.4 1.1.8-.1 2.5-1 2.9-2 .4-1 .4-1.8.3-2-.1-.2-.4-.3-.9-.6s-2.5-1.2-2.9-1.3c-.4-.2-.7-.2-1 .3-.3.5-1.1 1.3-1.3 1.6-.2.3-.5.3-.9.1-.5-.2-1.9-.7-3.6-2.2-1.3-1.1-2.2-2.5-2.5-3-.3-.5 0-.7.2-1 .2-.2.5-.6.7-.8.2-.3.3-.5.5-.8.2-.3.1-.6 0-.8-.1-.2-.9-2.2-1.3-3Z" fill="currentColor" transform="translate(3 1) scale(.82)" />
+        </svg>
+    </a>
+    <script src="src/scrips.js" defer></script>
+</body>
+</html>
